@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Adriana Deep -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Whole You Wellness</title>
+        
+        <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png">
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
+
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <img src="images/favicon/WYW-2.png" alt="Logo" class="siteLogo">
+            <div class="siteName">Whole You Wellness</div>
+            <div class="tagline">BALANCE YOUR BODY. CALM YOUR MIND.</div>
+        </header>
+        
+        <!--Navigation-->
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="gym.html">GYM</a>
+            <a href="homeWorkouts.html">HOME WORKOUTS</a>
+            <a href="yoga.html">YOGA</a>
+            <a href="mindWell.html">MINDFULNESS &amp; WELLBEING</a>
+            <a href="nutrition.html">NUTRITION</a>
+            <a href="gettingStarted.html">GETTING STARTED</a>
+        </nav>
+        
+        <!--Main Body-->
+        <div class="pageBanner"><h1>Contact Us &amp; Newsletter</h1><p>WE'D LOVE TO HEAR FROM YOU.</p></div>
+        <div class="content">
+            <h2>Get in Touch</h2>
+            <p>Have a question, a wellness topic you'd love us to cover, or just want to say hello? Fill out the form below and we'll get back to you within 48 hours. You can also reach us directly at <a href="mailto:adeep2@hawkmail.hfcc.edu">hello@wholeyouwellness.com</a>.</p>
+
+            <form class="contactForm" id="contactForm" action="https://formspree.io/f/mpqbqney" method="post">
+                <div class="formRow">
+                    <div class="formGroup">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="first_name" placeholder="Jane" required>
+                    </div>
+                    <div class="formGroup">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="last_name" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                </div>
+                <div class="formGroup">
+                    <label for="topic">WELLNESS TOPIC</label>
+                    <select id="topic" name="topic">
+                        <option value="">Select a topic...</option>
+                        <option value="gym">Gym &amp; Strength Training</option>
+                        <option value="home">Home Workouts</option>
+                        <option value="yoga">Yoga &amp; Mobility</option>
+                        <option value="nutrition">Nutrition &amp; Meal Prep</option>
+                        <option value="mindfulness">Mindfulness &amp; Mental Wellbeing</option>
+                        <option value="other">Other / General</option>
+                    </select>
+                </div>
+                <div class="formGroup">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+                </div>
+                <button type="submit" class="formSubmit">SEND MESSAGE</button>
+                <div class="formSuccess" id="contactSuccess" style="display:none;">Thank you for reaching out! We'll get back to you within 48 hours.</div>
+            </form>
+
+            <h2 style="margin-top:56px;">Subscribe to Our Newsletter</h2>
+            <p>Join our community and get weekly wellness tips, new articles, workout ideas, and healthy recipes delivered straight to your inbox. No spam — ever. Just good content to help you live whole.</p>
+
+            <form class="contactForm" id="newsletterForm" action="https://formspree.io/f/mpqbqney" method="post">
+                <div class="formRow">
+                    <div class="formGroup">
+                        <label for="sub-name">YOUR NAME</label>
+                        <input type="text" id="sub-name" name="name" placeholder="Jane Doe" required>
+                    </div>
+                    <div class="formGroup">
+                        <label for="sub-email">EMAIL ADDRESS</label>
+                        <input type="email" id="sub-email" name="email" placeholder="jane@example.com" required>
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <label for="interest">MAIN WELLNESS INTEREST</label>
+                    <select id="interest" name="interest">
+                        <option value="">I'm most interested in...</option>
+                        <option value="fitness">Fitness &amp; Workouts</option>
+                        <option value="nutrition">Nutrition &amp; Recipes</option>
+                        <option value="mindfulness">Mindfulness &amp; Mental Health</option>
+                        <option value="all">A little bit of everything!</option>
+                    </select>
+                </div>
+                <button type="submit" class="formSubmit">SUBSCRIBE</button>
+                <div class="formSuccess" id="newsletterSuccess" style="display:none;">You're subscribed! Welcome to the Whole You Wellness community.</div>
+            </form>
+        </div>
+        
+        <!--Footer-->
+        <footer>
+            <div class="footerInner">
+                <div class="footerLogo">Whole You Wellness</div>
+                <div class="footerLinks">
+                    <a href="about.html">ABOUT</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="privacy.html">PRIVACY</a>
+                </div>
+                <div class="footerCopy">©2026</div>
+            </div>
+        </footer>
+        
+        <!--JavaScript for forms-->
+        <script src="contact.js"></script>
+    
+    </body>
+
+</html>
